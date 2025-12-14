@@ -1,0 +1,35 @@
+body {
+  background-color: #ffffff;
+}
+
+summary {
+  color: #3d3d3d;
+  cursor: pointer;
+}
+.content {
+    display: flex;
+    align-items: flex-start;
+    gap: 200px; 
+    margin-top: 20px;
+}
+
+.video-block {
+    flex: 1; 
+}
+
+.test-block {
+    flex: 1; 
+}
+
+.logo {
+  background: transparent;
+    height: auto; 
+    width: auto;       
+             
+}
+
+.hero h1 {
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 48px;
+}

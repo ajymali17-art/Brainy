@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet"
+        href="style.css">
+     <title> Brainy </title>
+     <style>
+summary{ list-style: none;}
+     summary::-webkit-details-marker {display: none !important;}
+     summary::marker {display: none !important}
+     summary{
+  font-size: xx-large;
+  cursor: pointer;
+  position: relative;
+  padding-left: 40px;
+}
+summary::before {
+  content: "▶";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 40px;
+  color: #3d3d3d;
+  transition: transform 0.3s ease;
+}
+details[open] summary::before {
+  transform: rotate(90deg);
+}
+</style>
+    </head> 
+     <body>
+          <div style="position: relative; text-align: center;">
+      <img src="images/logo.jpg" alt="Mathematics" style="width:1600px; height: 400px; object-fit: cover;">
+      <div class="hero"> 
+        <img src="images/logo.png"
+        alt="Логотип" style="position: absolute; top: 30px; left: 47%;" class="logo">
+     <h1 style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); color: white; font-family: Georgia, serif; font-size: 80px; margin: 0; margin-top: 100px; text-shadow: 2px 2px 6px rgba(0,0,0,0.5);"> Brainy </h1> </div></div>
+           <details style="margin-top: 60px ;margin: 20px;"> 
+<summary><a style="font-size: xxx-large;"> Класс </a></summary>
+<h2><a href="math5.html" style="color: #3d3d3d; text-decoration: none; font-size: xx-large;"> 5 Класс </a></h2>
+<h2><a href="math6.html" style="color: #3d3d3d; text-decoration: none; font-size: xx-large;"> 6 Класс  </a>
+</h2>
+        </details>
+        <div style="margin-top: 650px; position: fixed ; top: 10px; left: 35px; z-index: 1000;">
+  <script async src="https://cse.google.com/cse.js?cx=124243943474045b7">
+</script>
+<div class="gcse-search"></div> </div>
+    </body>
+</html>
